@@ -1,4 +1,4 @@
-# moonlight-uim-react UI Component Library
+# Moonlight UI React Component Library
 
 ## Usage
 
@@ -12,3 +12,8 @@
 - `npm run build`
 
 I don't use the rest of the scripts, `lint` is used in github workflow though.
+
+
+## Attribution
+
+This Vite React-TS-SB-TW Component Library is based on UI Mother's Moon Light Figma Kit.
