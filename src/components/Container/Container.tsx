@@ -11,7 +11,7 @@ export const Container: React.FC<DetailedHTMLProps<HTMLAttributes<HTMLDivElement
   return (
     <div
       {...restProps}
-      className={cn('mll-relative mll-border-y mll-border-t-neutral-500 mll-border-b-neutral-900', className)}
+      className={cn('mll-relative mll-font-jost mll-border-y mll-border-t-neutral-500 mll-border-b-neutral-900', className)}
       style={{
         ...style,
         backgroundImage: `url('data:image/svg+xml;base64,${btoa(Background)}')`,

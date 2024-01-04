@@ -13,7 +13,7 @@ export const Button = forwardRef<HTMLButtonElement, Props>(
         {...restProps}
         type='button'
         className={cn(
-          'mll-flex mll-justify-center mll-items-center mll-bg-cbg mll-rounded-full mll-shadow-toggle-btn-bg',
+          'mll-flex mll-justify-center mll-items-center mll-bg-cbg mll-font-jost mll-rounded-full mll-shadow-toggle-btn-bg',
           disabled ? 'mll-text-neutral-600' : 'mll-text-neutral-400',
           icon && 'mll-w-10 mll-h-10',
           !icon && 'mll-w-fit',
