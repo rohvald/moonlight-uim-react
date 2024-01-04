@@ -30,7 +30,7 @@ export const Button = forwardRef<HTMLButtonElement, Props>(
           'mll-shadow-pill-btn mll-duration-200',
           !disabled && 'hover:mll-from-[#2a2c33] hover:mll-to-[#43464d] active:mll-shadow-pill-btn-active'
         )}>
-          <span className='mll-w-full mll-flex mll-justify-center mll-items-center mll-text-center mll-text-md mll-font-jost'>
+          <span className={cn('mll-w-full mll-flex mll-justify-center mll-items-center mll-text-center mll-text-md mll-font-jost', !icon && 'mll-p-3' )}>
             { children }
           </span>
         </div>

@@ -4,6 +4,7 @@ import { Button } from './Button'
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
   component: Button,
+  decorators: [(story) => <div style={{ padding: '32px', backgroundColor: '#333' }}>{story()}</div>],
   tags: ["autodocs"]
 }
 

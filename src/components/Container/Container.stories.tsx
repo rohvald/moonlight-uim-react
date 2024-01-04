@@ -4,6 +4,7 @@ import { Container } from './Container'
 const meta: Meta<typeof Container> = {
   title: 'Components/Container',
   component: Container,
+  decorators: [(story) => <div style={{ padding: '32px', backgroundColor: '#333' }}>{story()}</div>],
   tags: ["autodocs"]
 }
 
@@ -13,7 +14,6 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    className: 'mll-w-96 mll-h-64 mll-p-4 mll-rounded-lg mll-flex mll-justify-center mll-items-center mll-text-white',
-    children: 'Container'
+    className: 'mll-w-full mll-h-96',
   }
 }
