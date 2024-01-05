@@ -3,7 +3,7 @@
 ## Usage
 
 1. Import library stylesheet: `import '@rohvald/moonlight-uim-react/style.css'`
-2. Tailwind classes are prefixed with `mnl-`
+2. Tailwind classes are prefixed with `mll-`
 3. All images are inlined (sizes: 300-1200 bytes per image)
 
 ## Scripts
