@@ -1,10 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { ContinuousKnob } from './ContinuousKnob'
+import { OffableContinuousKnob } from './OffableContinuousKnob'
 import { instanceParameterHandler } from '../../../utils/mockedParameterHandlers'
 
-const meta: Meta<typeof ContinuousKnob> = {
-  title: 'Components/ContinuousKnob',
-  component: ContinuousKnob,
+const meta: Meta<typeof OffableContinuousKnob> = {
+  title: 'Components/OffableContinuousKnob',
+  component: OffableContinuousKnob,
   decorators: [(story) => <div style={{ padding: '32px', backgroundColor: '#333' }}>{story()}</div>],
   tags: ["autodocs"]
 }
@@ -25,8 +25,9 @@ export const Default: Story = {
     size: 'md',
     className: undefined,
 
-    /* Continuous Knob Props */
+    /* Offable Continuous Knob Props */
     value: 0,
-    range: [0, 100]
+    range: [0, 100],
+    off: 0
   }
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { cn } from '../../../utils/cn'
 import { getClientXY } from '../../../utils/touchutils'
 import Pointer from '../../../assets/images/svg/Pointer.svg?raw'
+import { ParameterHandler } from '../../../types'
 
 /**
  * Userji expectajo precej od knofa:
@@ -22,10 +23,6 @@ export const isParameterHandlerWithChannel = (handler: ParameterHandler): handle
 export const isParameterHandlerWithoutChannel = (handler: ParameterHandler): handler is ((parameter: string, value: string | number | boolean) => void) => {
   return handler.length === 2
 }
-
-export type ParameterHandlerWithChannel = (parameter: string, value: string | number | boolean, channel: number) => void
-export type ParameterHandlerWithoutChannel = (parameter: string, value: string | number | boolean) => void
-export type ParameterHandler = ParameterHandlerWithChannel | ParameterHandlerWithoutChannel
 
 export interface StandardKnobProps {
   channel?: number,

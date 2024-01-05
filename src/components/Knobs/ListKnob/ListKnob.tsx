@@ -36,7 +36,7 @@ export const ListKnob: React.FC<ListKnobProps & StandardKnobProps> = ({ value, l
       genericValue={genericValue}
       label={label}
       unit={unit}
-      steps={list.map((item, index) => index / (list.length - 1))}
+      steps={list.map((_, index) => index / (list.length - 1))}
       legend={listToLegend(list)}
       parameterHandler={wrappedParameterHandler}
       className={className}
