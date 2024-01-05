@@ -11,7 +11,7 @@
 - `npm run storybook`
 - `npm run build`
 
-I don't use the rest of the scripts, `lint` is used in github workflow though.
+I don't use the rest of the scripts, `test` is used in github workflow though.
 
 
 ## Attribution
