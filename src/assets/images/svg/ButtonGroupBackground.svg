@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 96"><defs><filter x="-25.4%" y="-65.2%" width="150.8%" height="230.4%" filterUnits="objectBoundingBox" id="a"><feGaussianBlur stdDeviation="10" in="SourceGraphic"/></filter></defs><ellipse filter="url(#a)" cx="59" cy="23" rx="59" ry="23" transform="translate(24 25)" fill="#070707" fill-rule="evenodd" opacity=".36981492"/></svg>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 166 96"
+>
+  <defs>
+    <filter x="-25.4%" y="-65.2%" width="150.8%" height="230.4%" filterUnits="objectBoundingBox" id="a">
+      <feGaussianBlur stdDeviation="10" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <ellipse filter="url(#a)" cx="59" cy="23" rx="59" ry="23" transform="translate(24 25)" fill="#070707" fill-rule="evenodd" opacity=".36981492"/>
+</svg>
