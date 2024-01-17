@@ -1,5 +1,13 @@
 # Moonlight UI React Component Library
 
+Featuring:
+- Vite
+- React
+- TypeScript
+- StoryBook
+- TailwindCSS
+- GitHub Actions workflow to publish new releases to npm
+
 ## Usage
 
 1. Import library stylesheet: `import '@rohvald/moonlight-uim-react/style.css'`
